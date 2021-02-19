@@ -11,7 +11,7 @@ public class ProcesarJson extends ProcesarArchivo{
 	@Override
 	void leer() {
 		// TODO Auto-generated method stub
-		System.out.println("Leyendo archivo Excel");
+		System.out.println("Leyendo archivo JSON");
 	}
 
 }
