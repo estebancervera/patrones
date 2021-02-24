@@ -6,8 +6,6 @@ public class RegistrarLiquidos extends RegistrarLotes {
 	void registrarParametrosIniciales() {
 		// TODO Auto-generated method stub
 		System.out.println("Registrando Parametros Iniciales:");
-		System.out.println("- uso de la bomba");
-		System.out.println("- horas de uso");
 		System.out.println("- nivel de materia prima");
 		
 	}
@@ -16,37 +14,25 @@ public class RegistrarLiquidos extends RegistrarLotes {
 	void registrarParametrosFinales() {
 		// TODO Auto-generated method stub
 		System.out.println("Registrando Parametros Finales:");
-		System.out.println("- presion de los envases");
-		System.out.println("- temperatura de los envases");
-		System.out.println("- nivel de materia prima");
+		System.out.println("- nivel actual de materia prima");
 	}
 
 	@Override
 	void calcularVolumen() {
 		// TODO Auto-generated method stub
 		System.out.println("Calculando el volumen");
-		System.out.println("- con la formula proporcionada por la empresa");
-		System.out.println("- con la presion, temperatura, y cantidad de los envases");
-
+		System.out.println("- con la diferencia entre materia prima incial y final");
+	
 	}
 
 	@Override
 	void realizarInspecciones() {
 		// TODO Auto-generated method stub
 		System.out.println("Realizando las inspecciones:");
+		System.out.println("- son menos rigurosas");
 		System.out.println("- se debe imprimir checklist del gerente de seguridad");
 	}
 
-	@Override
-	void imprimirReporte() {
-		// TODO Auto-generated method stub
-		System.out.println("------------REPORTE------------");
-		System.out.println("| fecha:               25/2/21 |");
-		System.out.println("| cantidad:            200 env |");
-		System.out.println("| consumo materia P :   15 ton |");
-		System.out.println("| _________       ____________ |");
-		System.out.println("| operador         inspector   |");
-		System.out.println("-------------------------------");
-	}
+
 
 }

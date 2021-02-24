@@ -37,17 +37,6 @@ public class RegistrarAltaPresion extends RegistrarLotes {
 		System.out.println("- se debe imprimir checklist del gerente de seguridad");
 	}
 
-	@Override
-	void imprimirReporte() {
-		// TODO Auto-generated method stub
-		System.out.println("Imprimiendo Reporte:");
-		System.out.println("------------REPORTE------------");
-		System.out.println("| fecha:               25/2/21 |");
-		System.out.println("| cantidad:            200 env |");
-		System.out.println("| consumo materia P :   15 ton |");
-		System.out.println("| _________       ____________ |");
-		System.out.println("| operador         inspector   |");
-		System.out.println("-------------------------------");
-	}
+	
 
 }

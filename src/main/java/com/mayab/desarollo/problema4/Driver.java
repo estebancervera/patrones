@@ -15,10 +15,10 @@ public class Driver {
 		
 		System.out.println("-----LOWER-----");
 		generator.setSentence(lower);
-		generator.createSentence("INSERT ROW INTO TABLE");
+		generator.createSentence("Insert Row Into Table");
 		System.out.println("-----UPPER-----");
 		generator.setSentence(upper);
-		generator.createSentence("INSERT ROW INTO TABLE");
+		generator.createSentence("Insert Row Into Table");
 		
 		
 	}
