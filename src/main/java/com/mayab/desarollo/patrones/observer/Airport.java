@@ -14,6 +14,7 @@ public class Airport {
 		
 		flight.setFlight("6:00 AM", Status.INTIME, "28/1/2021", "A3");
 		
+		
 	}
 
 }
